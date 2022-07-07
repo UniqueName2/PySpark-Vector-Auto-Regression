@@ -1,0 +1,43 @@
+Structure of repository:
+    All of the files are in this directory, with all of the data used.
+    The zone_lookup.csv file is an external data source used to replace pickup id into zones.
+    The taxi_2019 csv file each contain 1 month of data, which all gets added to a single data frame and then bined into 30 minute intervals.
+    The Taxi_ANALYSIS.ipynb is the data cleaning, preprocessing and analysis (justifications for the VAR model)
+    The Taxi_Modelling.ipynb contains the base python code and the big data code to build and test the VAR model
+
+How to use:
+    Run each cell on the file chosen.
+
+References:
+
+C. S. Wickramasinghe, D. Marino, F. Yucel, E. Bulut and M. Manic, "Data Driven Hourly Taxi Drop-offs Prediction using TLC Trip Record Data," 2019 12th International Conference on Human System Interaction (HSI), 2019, pp. 168-173, doi: 10.1109/HSI47298.2019.8942633.
+
+Kevin Hoang, Carson K. Leung, Matthew R. Spelchak, Bonnie Tang, Duncan P. Taylor-Quiring, and Nicholas J. Wiebe. 2020. Cognitive and Predictive Analytics on Big Open Data. In <i>Cognitive Computing – ICCC 2020: 4th International Conference, Held as Part of the Services Conference Federation, SCF 2020, Honolulu, HI, USA, September 18-20, 2020, Proceedings</i>. Springer-Verlag, Berlin, Heidelberg, 88–104. https://doi.org/10.1007/978-3-030-59585-2_8
+
+A. M. Aryal and Sujing Wang, "Discovery of patterns in spatio-temporal data using clustering techniques," 2017 2nd International Conference on Image, Vision and Computing (ICIVC), 2017, pp. 990-995, doi: 10.1109/ICIVC.2017.7984703.
+
+Manley, E., Ross, S., & Zhuang, M. (2021). Changing Demand for New York Yellow Cabs during the COVID-19 Pandemic. Findings. https://doi.org/10.32866/001c.22158
+
+I. Triguero, G. P. Figueredo, M. Mesgarpour, J. M. Garibaldi and R. I. John, "Vehicle Incident Hot Spots Identification: An Approach for Big Data," 2017 IEEE Trustcom/BigDataSE/ICESS, 2017, pp. 901-908, doi: 10.1109/Trustcom/BigDataSE/ICESS.2017.329.
+
+Shoro, A.G., & Soomro, T.R. (2015). Big Data Analysis: Ap Spark Perspective.
+
+M. Sharma, V. Chauhan, K. Kishore (2016). A Review: Mapreduce And Spark For Big Data Analytics. International Journal Of Advanced Technology In Engineering And Science. 
+
+Toda, H. Y., & Phillips, P. C. B. (1994). Vector autoregression and causality: a theoretical overview and simulation study. Econometric Reviews, 13(2), 259–285. https://doi.org/10.1080/07474939408800286
+
+Prabhakaran, S. (2022, April 10). Vector Autoregression (VAR) - Comprehensive Guide with Examples in Python. Machine Learning Plus. https://www.machinelearningplus.com/time-series/vector-autoregression-examples-python/
+
+Shojaie, Ali and Fox, Emily B., Granger Causality: A Review and Recent Advances (March 1, 2022). Annual Review of Statistics and Its Application, Vol. 9, Issue 1, pp. 289-319, 2022, Available at SSRN: https://ssrn.com/abstract=4065356 or http://dx.doi.org/10.1146/annurev-statistics-040120-010930
+
+Hjalmarsson, E., & Österholm, P. (2007). Testing for Cointegration Using the Johansen Methodology When Variables are Near-Integrated. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.1007890
+
+Yin-Wong Cheung & Kon S. Lai (1995) Lag Order and Critical Values of the Augmented Dickey–Fuller Test, Journal of Business & Economic Statistics, 13:3, 277-280, DOI: 10.1080/07350015.1995.10524601
+
+de Myttenaere, A., Golden, B., le Grand, B., & Rossi, F. (2016). Mean Absolute Percentage Error for regression models. Neurocomputing, 192, 38–48. https://doi.org/10.1016/j.neucom.2015.12.114
+
+Xiangrui Meng, Joseph Bradley, Burak Yavuz, Evan Sparks, Shivaram Venkataraman, Davies Liu, Jeremy Freeman, DB Tsai, Manish Amde, Sean Owen, Doris Xin, Reynold Xin, Michael J. Franklin, Reza Zadeh, Matei Zaharia, and Ameet Talwalkar. 2016. MLlib: machine learning in apache spark. J. Mach. Learn. Res. 17, 1 (January 2016), 1235–1241. https://doi.org/10.48550/arXiv.1505.06807
+
+Galicia, A., Torres, J. F., Martínez-Álvarez, F., & Troncoso, A. (2017). Scalable Forecasting Techniques Applied to Big Electricity Time Series. Advances in Computational Intelligence, 165–175. https://doi.org/10.1007/978-3-319-59147-6_15
+
+van Engelen, J.E., Hoos, H.H. A survey on semi-supervised learning. Mach Learn 109, 373–440 (2020). https://doi.org/10.1007/s10994-019-05855-6
