@@ -1,7 +1,10 @@
+The data files are too large to be uploaded but are available at https://www.kaggle.com/competitions/nyc-taxi-trip-duration/overview
+The data used was from January to March (Including).
+
 Structure of repository:
     All of the files are in this directory, with all of the data used.
     The zone_lookup.csv file is an external data source used to replace pickup id into zones.
-    The taxi_2019 csv file each contain 1 month of data, which all gets added to a single data frame and then bined into 30 minute intervals.
+    The taxi_2019 csv files each contain 1 month of data, which all gets added to a single data frame and then bined into 30 minute intervals.
     The Taxi_ANALYSIS.ipynb is the data cleaning, preprocessing and analysis (justifications for the VAR model)
     The Taxi_Modelling.ipynb contains the base python code and the big data code to build and test the VAR model
 
